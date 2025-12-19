@@ -15,3 +15,5 @@ Type Coercion -> concept jisme aaoka ek type automatically convert ho jayega
 // if(null){ // false
     
 // }
+
+// falsy -> 0
