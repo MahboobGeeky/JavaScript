@@ -9,10 +9,15 @@
 // = -> assingment operator
 // == -> camparison(loose)
 // === -> comparison(strict)
-// !=
-// !==
+// != not strict
+// !== strict
 // >=
 // <=
 // <
 // >
+
+// TERNARY Operator
+// ? :
+12 > 13 ? console.log("True") : console.log("False");
+
 
