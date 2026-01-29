@@ -1,0 +1,1 @@
+Used in functions to exit early if some condition fails.
