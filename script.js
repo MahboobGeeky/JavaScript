@@ -1,9 +1,15 @@
-let a = 10; // block scope // global
-{
-    let a = 20;
-    console.log("Inside:", a);
-}
-console.log("Outside:", a);
-/*
+function outer() {
+  let count = 0;
 
-*/
+  function inner() {
+    count++;
+    console.log(count);
+  }
+
+  return inner;
+}
+
+const fn = outer();
+fn(); // 1
+fn(); // 2
+fn(); // 3
