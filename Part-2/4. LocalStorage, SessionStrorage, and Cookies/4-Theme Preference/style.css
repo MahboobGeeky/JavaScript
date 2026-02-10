@@ -1,0 +1,46 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Light Theme */
+body.light {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Center content */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Button */
+#toggleTheme {
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Button in dark mode */
+body.dark #toggleTheme {
+  background-color: #fff;
+  color: #000;
+}
