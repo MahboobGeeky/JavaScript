@@ -1,5 +1,4 @@
-// OOPS
-
+// OOPS concept
 function CreatePencil(name, price, color, company) {
   this.name = name;
   this.price = price;
@@ -15,4 +14,3 @@ function CreatePencil(name, price, color, company) {
 
 let pencil1 = new CreatePencil("Natraj", 10, "red", "natraj");
 let pencil2 = new CreatePencil("Doms", 10, "green", "doms");
-
