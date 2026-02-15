@@ -64,6 +64,6 @@ const userManager = {
       container.appendChild(card);
     });
   },
-  removeUser: function () {},
+  removeUser: function () {}, // need to it by myslef
 };
 userManager.init();
