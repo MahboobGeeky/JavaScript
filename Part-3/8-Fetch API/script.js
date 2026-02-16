@@ -10,7 +10,7 @@
 //     });
 
 function getUsers() {
-  fetch("https://randomuser.me/api/?results=3")
+  fetch("https://randomuser.me/api/?results=12")
     .then((data) => {
       return data.json(); // make it readable
     })
