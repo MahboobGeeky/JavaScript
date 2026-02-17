@@ -10,3 +10,4 @@ function throttle(func, limit) {
     }
   };
 }
+
